@@ -1,0 +1,36 @@
+
+#article-list{
+background-image: url(pattern.jpg);
+max-width: 80%;
+align-items: center;
+margin: auto;
+}
+img{
+width: 150px;
+}
+h1{
+    padding-top: 40px;
+    margin: auto;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+article{
+    border-bottom: 5px solid black;
+    padding: 20px;
+}
+li{
+    display: inline;
+    margin-right: 40px;
+}
+ul{
+    text-decoration: none;
+}
